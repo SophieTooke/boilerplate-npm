@@ -8,7 +8,7 @@ let app = express();
 let __pages = '/views/'
 
 app.get("/", function(req, res) {
-    res.send(_pages + 'index.html');
+    res.send(__pages + 'index.html');
 })
 
 
