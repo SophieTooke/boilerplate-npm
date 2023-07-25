@@ -5,10 +5,9 @@ let app = express();
 //     res.send("Hello Express");
 // })
 
-let __pages = '/views/'
 
 app.get("/", function(req, res) {
-    res.sendFile(__pages + 'index.html');
+    res.sendFile(__dirname + '/views/index.html');
 })
 
 
